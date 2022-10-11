@@ -3,7 +3,7 @@ import "./header.css";
 import CTA from "./CTA";
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocial'
-const header = () => {
+const Header = () => {
   return (
     <header>
       <div className="container header__container">
@@ -21,4 +21,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
